@@ -1,0 +1,1 @@
+console.assert(expression, object);
