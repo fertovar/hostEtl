@@ -61,7 +61,7 @@ foreach ($planteles as $plantel) {
         if (!is_array($ingresos)) continue;
 
         foreach ($ingresos as $item) {
-            echo "registro: ".$contar." Matricula: ".$matricula."- Insertando id_unico: " . $item['id_unico'] . "<br>";
+            //echo "registro: ".$contar." Matricula: ".$matricula."- Insertando id_unico: " . $item['id_unico'] . "<br>";
 
             if (empty($item['id_unico'])) continue;
                 
